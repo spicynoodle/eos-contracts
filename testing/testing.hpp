@@ -1,3 +1,4 @@
+#include <eoslib/eos.hpp>
 
 namespace testing {
 
@@ -5,6 +6,6 @@ namespace testing {
       AccountName name    = 0;
       
       void print(){
-        eos::print("Name: " + name);
+        eos::print("Name: TODO");
       }
    };
