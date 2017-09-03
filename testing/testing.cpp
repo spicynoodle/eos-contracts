@@ -8,7 +8,7 @@ namespace testing {
   void sendMsg(Msg msg){
      msg::print();
   }   
-} // namespace exchange
+}
 
 extern "C" {
    void init() {
