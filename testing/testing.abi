@@ -1,0 +1,19 @@
+{
+  "types": [{
+      "newTypeName": "AccountName",
+      "type": "Name"
+    }
+  ],
+  "structs": [{
+      "name": "Msg",
+      "fields": {
+        "name" : "AccountName"
+      }
+    }],
+  "actions": [{
+      "action": "msg",
+      "type": "Msg"
+    }
+  ],
+  "tables": []
+}
