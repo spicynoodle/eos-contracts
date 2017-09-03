@@ -1,0 +1,6 @@
+add_subdirectory(currency)
+add_subdirectory(exchange)
+add_subdirectory(infinite)
+add_subdirectory(test_api)
+add_subdirectory(simpledb)
+add_subdirectory(testing)
