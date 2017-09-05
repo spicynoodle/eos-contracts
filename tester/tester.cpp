@@ -6,7 +6,7 @@ namespace tester {
 
    void sendMsg( const tester::Message& msg ) {
       print("Hello, World: ");
-      print(*(msg.message));
+      print(&msg.message);
       print("\n");
    }
 }
